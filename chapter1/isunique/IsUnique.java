@@ -9,7 +9,7 @@ public class IsUnique {
 		assert !isUniqueWithoutDataStructure("aMandarr");
 	}
 	
-	public static boolean isUnique(String str) {			O (n)
+	public static boolean isUnique(String str) {			//O (n)
 		Set<Character> uniqueChars = new HashSet<>();
 		for(int i=0; i<str.length(); i++) {
 			if(uniqueChars.contains(str.charAt(i))) {
@@ -20,7 +20,7 @@ public class IsUnique {
 		return true;
 	}
 	
-	public static boolean isUniqueWithoutDataStructure(String str) {		O (n log n)
+	public static boolean isUniqueWithoutDataStructure(String str) {		//O (n log n)
 		char[] stringChars = str.toCharArray();
 		Arrays.sort(stringChars);		//Arrays.sort uses a Dual-Pivot Quicksort; O (n log n)
 		for(int i=0; i < stringChars.length - 1; i++) {
