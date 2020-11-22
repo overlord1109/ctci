@@ -5,13 +5,13 @@ public class StringRotation{
 		System.out.println(isRotated("aaaaa", "aaaaaaa"));
 	}
 	
-	public static boolean isRotated(String one, String other) {
-		if(one.length() != other.length())
+	public static boolean isRotated(String s1, String s2) {
+		if(s1.length() != s2.length())
 			return false;
 		
-		String concatenated = other + other;
+		String s2s2 = s2 + s2;
 		
-		if(concatenated.indexOf(one) != -1)
+		if(s2s2.indexOf(s1) != -1)
 			return true;
 		else
 			return false;

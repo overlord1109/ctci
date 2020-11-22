@@ -1,0 +1,1 @@
+Consider all possible substrings of (s2 + s2) of s2.length. By definition, these substrings would be rotations of s2. Thus, if s1 is a substring of (s2 + s2), s1 is a rotation of s2 (vice-versa s2 is a rotation of s1).
