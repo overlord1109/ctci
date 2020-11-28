@@ -6,7 +6,7 @@ Purpose of this repository is to facilitate easy sharing of code across my devic
 Tracker:
 
 - [x]  Chapter 1  | Arrays and Strings
-- [ ]  Chapter 2  | Linked Lists
+- [x]  Chapter 2  | Linked Lists
 - [ ]  Chapter 3  | Stacks and Queues
 - [ ]  Chapter 4  | Trees and Graphs
 - [ ]  Chapter 5  | Bit Manipulation
