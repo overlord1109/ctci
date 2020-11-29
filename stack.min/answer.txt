@@ -1,0 +1,1 @@
+Maintain a StackNode reference, minimumYet, within each node which points to the minimum among that element and those below it. It can be set in O(1) time while pushing an element onto the stack, by comparing old top's minimum and pushed element's data.
