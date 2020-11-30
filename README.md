@@ -7,7 +7,7 @@ Tracker:
 
 - [x]  Chapter 1  | Arrays and Strings
 - [x]  Chapter 2  | Linked Lists
-- [ ]  Chapter 3  | Stacks and Queues
+- [x]  Chapter 3  | Stacks and Queues
 - [ ]  Chapter 4  | Trees and Graphs
 - [ ]  Chapter 5  | Bit Manipulation
 - [ ]  Chapter 6  | Math and Logic Puzzles
