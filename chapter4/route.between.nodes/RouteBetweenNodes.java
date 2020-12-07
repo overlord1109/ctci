@@ -19,7 +19,6 @@ public class RouteBetweenNodes {
 		
 		while(!queue.isEmpty()) {
 			Node current = queue.poll();
-			System.out.println("Polled " + current.getVertex() + " from the queue.");
 
 			Node[] neighbours = current.getAdjacent();
 			for(Node neighbour : neighbours) {
