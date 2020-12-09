@@ -10,8 +10,9 @@ public class BuildOrder {
 		Project d = new Project('d');
 		Project e = new Project('e');
 		Project f = new Project('f');
-		List<Project> projects = Arrays.asList(a, b, c, d, e, f);
-		List<Dependency> dependencies = Arrays.asList(new Dependency(a, d),	new Dependency(f, b), new Dependency(b, d), new Dependency(f, a), new Dependency(d, c));
+		Project g = new Project('g');
+		List<Project> projects = Arrays.asList(a, b, c, d, e, f, g);
+		List<Dependency> dependencies = Arrays.asList(new Dependency(a, e),	new Dependency(f, b), new Dependency(b, a), new Dependency(f, a), new Dependency(f, c), new Dependency(d, g), new Dependency(b, e));
 		
 		System.out.println("Projects ordered as: " + buildOrder(projects, dependencies).stream().map(project -> Character.toString(project.projectName)).collect(Collectors.joining(", ")));
 	}
