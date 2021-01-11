@@ -8,7 +8,7 @@ Tracker:
 - [x]  Chapter 1  | Arrays and Strings
 - [x]  Chapter 2  | Linked Lists
 - [x]  Chapter 3  | Stacks and Queues
-- [ ]  Chapter 4  | Trees and Graphs
+- [x]  Chapter 4  | Trees and Graphs
 - [ ]  Chapter 5  | Bit Manipulation
 - [ ]  Chapter 6  | Math and Logic Puzzles
 - [ ]  Chapter 7  | Object-Oriented Design
