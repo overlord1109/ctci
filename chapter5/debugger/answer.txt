@@ -1,0 +1,1 @@
+((n & (n-1)) == 0) checks whether n is a power of 2
