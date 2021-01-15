@@ -9,7 +9,7 @@ Tracker:
 - [x]  Chapter 2  | Linked Lists
 - [x]  Chapter 3  | Stacks and Queues
 - [x]  Chapter 4  | Trees and Graphs
-- [ ]  Chapter 5  | Bit Manipulation
+- [x]  Chapter 5  | Bit Manipulation
 - [ ]  Chapter 6  | Math and Logic Puzzles
 - [ ]  Chapter 7  | Object-Oriented Design
 - [ ]  Chapter 8  | Recursion and Dynamic Programming
